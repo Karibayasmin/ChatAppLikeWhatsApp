@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683776409828",
+    "project_id": "chatapp-like-whatsapp-fac4c",
+    "storage_bucket": "chatapp-like-whatsapp-fac4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683776409828:android:01f18e1b5a458715e82cf1",
+        "android_client_info": {
+          "package_name": "com.kariba.chatapplikewhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683776409828-esr7qus5tdlgpej0mbi0pobh4rhsq2c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkfh7dCBM6-OaDTT39gWGwvL19WWG0GuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683776409828-esr7qus5tdlgpej0mbi0pobh4rhsq2c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
