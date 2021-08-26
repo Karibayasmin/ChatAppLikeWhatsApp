@@ -40,9 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         viewPager.adapter = viewPagerAdapter
         tabLayout.setupWithViewPager(viewPager)
-
-
-
+        
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
