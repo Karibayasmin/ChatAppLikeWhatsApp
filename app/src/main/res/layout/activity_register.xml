@@ -35,6 +35,15 @@
         android:layout_centerInParent="true">
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editText_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="UserName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editText_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
