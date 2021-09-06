@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView_profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_profile"/>
+
+    <TextView
+        android:id="@+id/textView_user_name"
+        android:layout_toEndOf="@+id/imageView_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user name"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="12dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView_online"
+        android:layout_toEndOf="@+id/imageView_profile_image"
+        android:layout_below="@+id/textView_user_name"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/colorOnline"
+        app:civ_border_width="12dp"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView_offline"
+        android:layout_toEndOf="@+id/imageView_profile_image"
+        android:layout_below="@+id/textView_user_name"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/colorOffline"
+        app:civ_border_width="12dp"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView_last_message"
+        android:layout_toEndOf="@+id/imageView_profile_image"
+        android:layout_below="@+id/textView_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="20dp"
+        android:padding="6dp"
+        android:maxLines="1"/>
+
+</RelativeLayout>
